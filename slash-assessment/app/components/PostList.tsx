@@ -3,7 +3,7 @@
 
 import React from 'react';
 import styled from 'styled-components';
-import PostItem from './PostItem';
+import PostListItem from './PostItem';
 import { Post } from '../types/post';
 
 const List = styled.div`
@@ -17,7 +17,7 @@ interface Props {
 const PostList: React.FC<Props> = ({ posts }) => (
   <List>
     {posts.map(post => (
-      <PostItem key={post.id} post={post} />
+      <PostListItem key={post.id} post={post} />
     ))}
   </List>
 );
