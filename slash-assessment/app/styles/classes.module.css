@@ -9,3 +9,27 @@
   text-align: center;
   padding: 2rem;
 }
+.navbarcontainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    max-width: 1200px;
+  }
+  
+  .navitem {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .navitem:hover {
+    background-color: #005bb5;
+  }
+  
