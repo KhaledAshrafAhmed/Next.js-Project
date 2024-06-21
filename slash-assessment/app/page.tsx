@@ -22,13 +22,14 @@ const LoadingAnimation = styled.div`
   border: 5px solid rgba(0, 112, 243, 0.2); /* Light blue border */
   border-top-color: #0070f3; /* Blue border */
   animation: spin 1s infinite linear;
-  
+
   @keyframes spin {
     to {
       transform: rotate(360deg);
     }
   }
 `;
+
 
 const HomePage: React.FC = () => {
   const [posts, setPosts] = useState<Post[]>([]);
