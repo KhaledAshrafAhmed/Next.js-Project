@@ -32,4 +32,41 @@
   .navitem:hover {
     background-color: #005bb5;
   }
+  .postlist {
+    padding: 2rem;
+  }
+  .postcontainer {
+    background-color: white;
+    padding: 1rem 1.5rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s;
+  }
+  
+  .posttitle {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .postexcerpt {
+    color: #666;
+  }
+  
+  .readmorebutton {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .readmorebutton:hover {
+    background: #005bb5;
+  }
   
